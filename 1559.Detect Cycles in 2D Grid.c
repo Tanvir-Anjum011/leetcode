@@ -17,7 +17,8 @@ bool dfs(int r, int c, int pr, int pc, char target, int m, int n, char** grid, i
      
         if (nr >= 0 && nr < m && nc >= 0 && nc < n)
         {
-            if (grid[nr][nc] == target) {
+            if (grid[nr][nc] == target)
+            {
                 if (visited[nr][nc] && (nr != pr || nc != pc))
                 {
                     return true;
@@ -45,7 +46,8 @@ bool containsCycle(char** grid, int gridSize, int* gridColSize)
 
     for (int i = 0; i < m; i++)
     {
-        for (int j = 0; j < n; j++) {
+        for (int j = 0; j < n; j++)
+        {
             if (!visited[i][j])
             {
 

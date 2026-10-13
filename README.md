@@ -19,7 +19,5 @@ Algorithms, data structures, and SQL practice.
 | `Test.c` | Local C scratchpad |
 | `.vscode/` | Build, debug, and runner configuration |
 
-### Usage
-
-Submit each solution to its corresponding LeetCode problem. Function-only solutions and `Solution` classes need a test harness to run locally.
+Function only solutions and `Solution` classes need a test harness to run locally.
 

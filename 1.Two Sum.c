@@ -1,7 +1,8 @@
 #include <stdlib.h>
-int main(){}
+int main() {}
 
-int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
+int *twoSum(int *nums, int numsSize, int target, int *returnSize)
+{
   int *result = (int *)malloc(2 * sizeof(int));
   *returnSize = 2;
 

@@ -6,12 +6,12 @@ class Solution
 public:
     int singleNumber(vector<int>& nums) 
     {
-        int ones = 0, twos = 0;
+        int oness = 0, twoss = 0;
         for (int num : nums) 
         {
-            ones = (ones ^ num) & ~twos;
-            twos = (twos ^ num) & ~ones;
+            oness = (oness ^ num) & ~twoss;
+            twoss = (twoss ^ num) & ~oness;
         }
-        return ones;
+        return oness;
     }
 };

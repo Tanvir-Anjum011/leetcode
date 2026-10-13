@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.fontSize": 16,
+    "code-runner.runInTerminal": false,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "c": "cd $dir && env DEVELOPER_DIR=/Library/Developer/CommandLineTools /usr/bin/gcc \"$fileName\" -o \"$fileNameWithoutExt\" && \"./$fileNameWithoutExt\""
+    }
+}

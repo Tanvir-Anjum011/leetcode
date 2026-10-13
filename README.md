@@ -23,4 +23,3 @@ Algorithms, data structures, and SQL practice.
 
 Submit each solution to its corresponding LeetCode problem. Function-only solutions and `Solution` classes need a test harness to run locally.
 
-For standalone C files, use **Run Code** in VS Code with macOS Command Line Tools installed. Output appears in the **Output** panel; programs using `scanf()` require a terminal.

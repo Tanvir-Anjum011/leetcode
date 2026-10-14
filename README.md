@@ -4,7 +4,7 @@
 
 Algorithms, data structures, and SQL practice.
 
-**C · C++ · Java · SQL**
+**C · C++ · Java · SQL · python**
 
 <img src="assets/accent.gif" width="640" height="4" alt="Animated gold accent" />
 
